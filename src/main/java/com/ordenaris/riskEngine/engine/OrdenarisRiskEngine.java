@@ -22,7 +22,7 @@ public class OrdenarisRiskEngine {
 		this.rules = rules;
 	}
 		
-	public void evaluateRules(RequestDto request) throws Exception {
+	public NivelRiesgoEnum evaluateRules(RequestDto request) throws Exception {
 		log.info("Apply rules...");
 		log.info("Request: {}", request);
 		
@@ -42,7 +42,8 @@ public class OrdenarisRiskEngine {
 		}
 		
 		log.info("Finish");
-		
+
+		return nivelRiesgoActual;
 	}
 	
 }

@@ -22,4 +22,13 @@ Pasos a seguir para ejecución del aplicativo:
    3. Producto financiero, debe ser alguna de estas cadenas: LINEA_OPERATIVA, CREDITO_REVOLVENTE, ARRENDAMIENTO_FINANCIERO
    4. Fecha de solicitud en formato aaaa-MM-dd
 6. Ejemplo: java -jar risk-engine-0.0.1-SNAPSHOT.jar BBVA   200.10  LINEA_OPERATIVA  2025-04-18
-   
+
+La aplicación corre con java version 21
+
+Supuestos:
+- Se capturan los argumentos con los formatos establecidos para cada argumento
+
+Limitaciones:
+- Es un proyecto para correr en linea de comandos unicamente
+  
+

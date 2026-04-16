@@ -72,7 +72,8 @@ public class OrdenarisRiskEngineTest {
 				.productoFinanciero(ProductoFinancieroEnum.LINEA_OPERATIVA)
 		.build();
 		
-		engine.evaluateRules(request);
+		NivelRiesgoEnum nivelRiesgo = engine.evaluateRules(request);
+		assertEquals(NivelRiesgoEnum.ALTO, nivelRiesgo);
 	}
 	
 }

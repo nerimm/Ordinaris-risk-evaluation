@@ -12,6 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 import com.ordenaris.riskEngine.dto.RequestDto;
+import com.ordenaris.riskEngine.dto.catalog.NivelRiesgoEnum;
 import com.ordenaris.riskEngine.dto.catalog.ProductoFinancieroEnum;
 import com.ordenaris.riskEngine.information.provider.DatosContablesProvider;
 import com.ordenaris.riskEngine.information.provider.dummy.HistorialPagosProviderImpl;
